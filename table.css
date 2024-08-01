@@ -1,0 +1,81 @@
+/* .design {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.head {
+    border: 2px solid black;
+    width: 8.5%;
+    padding: 5px;
+    margin: 0px;
+} */
+* {
+    box-sizing: border-box;
+}
+table {
+    width: 100%;
+}
+th {
+    height: 100px;
+
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.diagonal {
+    background: linear-gradient(to right bottom, #ffffff 0%,#ffffff 49.9%,#000000 50%,#000000 51%,#ffffff 51.1%,#ffffff 100%);
+}
+th:nth-child(even) {
+    background-color: rgb(86, 86, 212);
+}
+th:nth-child(odd) {
+    background-color: rgb(226, 234, 72);
+}
+th, td {
+    width: 10%;
+    padding: 10px;
+}
+.head {
+    text-align: center;
+}
+.MB:hover, .BC:hover, .MM:hover, .Lab:hover, .F:hover, .S:hover {
+    
+    box-shadow: 4px 4px 15px 15px black;
+    transform: scale(1.2,1.2);
+    animation-name: example;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+.E {
+    background-color: grey;
+    text-align: center;
+    font-size: 30px;
+}
+.MB {
+    background-color: rgb(152, 61, 232);
+}
+.BC {
+    background-color: aqua;
+}
+.MM {
+    background-color: rgb(110, 234, 49);
+}
+.L {
+    background-color: red;
+}
+.Lab {
+    background-color: violet;
+}
+.F {
+    background-color: brown;
+}
+.S {
+    background-color: cornflowerblue;
+}
+
+@keyframes example {
+    0% {background-color: initial;}
+    33% {background-color: lightgray;}
+    66% {background-color: rgb(134, 167, 155);}
+    100% {background-color: initial;}
+}
