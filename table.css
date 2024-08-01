@@ -83,3 +83,18 @@ th, td {
     font-size: 16px;
     float: right;
 }
+a{
+    text-decoration: none;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: green;
+}
+a:active {
+    color: red;
+}
+a:hover {
+    color: darkorange;
+}
