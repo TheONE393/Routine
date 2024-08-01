@@ -79,3 +79,6 @@ th, td {
     66% {background-color: rgb(134, 167, 155);}
     100% {background-color: initial;}
 }
+.footer {
+    font-size: 6px;
+}
