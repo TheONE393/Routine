@@ -88,3 +88,31 @@ a:active {
 a:hover {
     color: darkorange;
 }
+.books {
+    p {background-color: rgb(255, 255, 255);
+        width: fit-content;
+        border: 2px solid black;
+        border-radius: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    a:link {
+        color: blue;
+    }
+    a:active {
+        color: grey;
+    }
+    a:visited {
+        color: grey;
+    }
+    p:hover {
+        background-color: yellowgreen;
+        transform-origin: left;
+        transform: scale(1.1,1.1);
+        box-shadow: 10px 10px 10px grey;
+        transition-duration: 1s;
+        transform:ease
+    }
+}
