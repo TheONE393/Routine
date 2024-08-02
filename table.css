@@ -90,10 +90,10 @@ a:link {
     color: black;
 }
 a:visited {
-    color: green;
+    color: rgb(0, 0, 0);
 }
 a:active {
-    color: red;
+    color: rgb(0, 0, 0);
 }
 a:hover {
     color: darkorange;
