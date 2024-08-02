@@ -39,11 +39,8 @@ th, td {
     text-align: center;
 }
 .MB:hover, .BC:hover, .MM:hover, .Lab:hover, .F:hover, .S:hover {
-    
-    box-shadow: 4px 4px 15px 15px black;
-    transform: scale(1.2,1.2);
-    animation-name: example;
-    animation-duration: 3s;
+    transform: scale(1.1,1.1);
+    animation-duration: 1s;
     animation-fill-mode: both;
 }
 .E {
@@ -71,13 +68,6 @@ th, td {
 }
 .S {
     background-color: cornflowerblue;
-}
-
-@keyframes example {
-    0% {background-color: initial;}
-    33% {background-color: lightgray;}
-    66% {background-color: rgb(134, 167, 155);}
-    100% {background-color: initial;}
 }
 .footer {
     font-size: 16px;
