@@ -89,6 +89,7 @@ a:hover {
     color: darkorange;
 }
 .books {
+    padding-left: 30px;
     p {background-color: rgb(255, 255, 255);
         width: fit-content;
         border: 2px solid black;
