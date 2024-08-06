@@ -148,6 +148,12 @@ a:hover {
 }
 
 ::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+::-webkit-scrollbar:horizontal {
+    width: 0px;
+}
+::-webkit-scrollbar:vertical {
     width: 10px;
 }
 ::-webkit-scrollbar-track {
