@@ -40,7 +40,7 @@ th, td {
 }
 .MB:hover, .BC:hover, .MM:hover, .Lab:hover, .F:hover, .S:hover {
     transform: scale(1.1,1.1);
-    animation-duration: 1s;
+    transition-duration: 1s;
     animation-fill-mode: both;
 }
 .E {
@@ -91,7 +91,11 @@ a:hover {
 .books {
     padding-left: 30px;
     p {background-color: rgb(255, 255, 255);
-        width: fit-content;
+        width:max-content;
+        position: relative;
+        transition: 0.5s;
+        transform-origin: left;
+        transform: scaleX(1);
         border: 2px solid black;
         border-radius: 50px;
         padding-top: 5px;
@@ -111,9 +115,58 @@ a:hover {
     p:hover {
         background-color: yellowgreen;
         transform-origin: left;
-        transform: scale(1.1,1.1);
+        transform: scaleX(1.1);
         box-shadow: 10px 10px 10px grey;
         transition-duration: 1s;
         transform:ease
     }
 }
+@keyframes fades {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale:1
+    }
+    /* 0% {
+        opacity: 0
+    }
+    15% {
+        opacity: 0.4;
+    }
+    25% {
+        opacity: 0.7;
+    }
+    40% {
+        opacity: 0.9;
+    }
+    50% {
+        opacity: 1;
+    } */
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(30, 30, 161), violet, pink, rgb(151, 21, 21));
+    border-radius: 10px;
+}
+@media screen and (max-width:800px) {
+    .books p{ width: 100%;}
+}
+/* @media screen and (max-width:800px) {
+    .books p {
+        width: 100%;
+    }
+} */
+.books p{
+    animation: fades linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+ }
