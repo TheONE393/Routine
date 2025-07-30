@@ -19,7 +19,7 @@ th {
 
 }
 table, th, td {
-    border: 2px solid black;
+    border: 1px solid black;
     border-collapse: collapse;
 }
 .diagonal {
@@ -38,37 +38,22 @@ th, td {
 .head {
     text-align: center;
 }
-.MB:hover, .BC:hover, .MM:hover, .Lab:hover, .F:hover, .S:hover {
+.A:hover, .B:hover, .C:hover, .D:hover, .E:hover, .F:hover, .Lab:hover, .K:hover, .J:hover {
     transform: scale(1.1,1.1);
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     animation-fill-mode: both;
 }
-.E {
-    background-color: grey;
-    text-align: center;
-    font-size: 30px;
-}
-.MB {
-    background-color: rgb(152, 61, 232);
-}
-.BC {
-    background-color: aqua;
-}
-.MM {
-    background-color: rgb(110, 234, 49);
-}
-.L {
-    background-color: red;
-}
-.Lab {
-    background-color: violet;
-}
-.F {
-    background-color: brown;
-}
-.S {
-    background-color: cornflowerblue;
-}
+.A { background-color: #FFB347; } /* Soft Orange/Gold */
+.B { background-color: #5F9EA0; } /* Cadet Blue */
+.C { background-color: #7FFFD4; } /* Aquamarine */
+.D { background-color: #98FB98; } /* Pale Green */
+.E { background-color: #FF6F61; } /* Coral Pink */
+.F { background-color: #C0C0C0; } /* Silver */
+.G { background-color: #BA55D3; } /* Medium Orchid */
+.J { background-color: #40E0D0; } /* Turquoise */
+.K { background-color: #FFA07A; } /* Light Salmon */
+.L { background-color: #FFD1DC; } /* Pastel Pink */
+.X { background-color: #E0E0E0; } /* Light Grey */
 .footer {
     font-size: 16px;
     float: right;
