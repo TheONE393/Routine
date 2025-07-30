@@ -1,4 +1,3 @@
-# Python script to generate index.html with subject names as variables
 subjects = {
     'A': 'Plant Physiology (LH-01)',
     'B': 'Ecology (LH-02)',
@@ -28,8 +27,8 @@ html = f'''<!DOCTYPE html>
         </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="E:/Codes/Routine/table.css">
-        <link rel="icon" type="image/x-icon" href="E:/Codes/Routine/theone.ico">
+        <link rel="stylesheet" href="table.css">
+        <link rel="icon" type="image/x-icon" href="theone.ico">
     </head>
     <body>
         <br>
