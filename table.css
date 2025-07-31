@@ -107,15 +107,15 @@ a:hover {
     }
 }
 @keyframes fades {
-    /* from {
+    from {
         opacity: 0;
-        scale: 0;
+        scale: 0.5;
     }
     to {
         opacity: 1;
         scale:1
-    } */
-    0% {
+    }
+    /* 0% {
         opacity: 0;
         scale: 0.5;
     }
@@ -131,7 +131,7 @@ a:hover {
     100% {
         opacity: 1;
         scale:1;
-    }
+    } */
 }
 
 ::-webkit-scrollbar{
@@ -163,8 +163,21 @@ a:hover {
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
  }
- @media screen and (max-device-width:480px) {
+@media screen and (max-device-width:480px) {
     .books p{ width: 100%;}
+}
+/* @media screen and (max-width:480px) {
+    .books p {
+        width: 100%;
+    }
+} */
+.books p{
+    animation: fades linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+ }
+@media screen and (max-device-width:480px) and (orientation:landscape) {
+    .books p{ width: inherit;}
 }
 /* @media screen and (max-width:480px) {
     .books p {
