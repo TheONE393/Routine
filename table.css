@@ -161,3 +161,16 @@ a:hover {
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
  }
+ @media screen and (max-device-width:480px) {
+    .books p{ width: 100%;}
+}
+/* @media screen and (max-width:480px) {
+    .books p {
+        width: 100%;
+    }
+} */
+.books p{
+    animation: fades linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+ }
