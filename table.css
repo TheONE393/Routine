@@ -151,7 +151,7 @@ a:hover {
     border-radius: 10px;
 }
 @media screen and (max-width:800px) {
-    .books p{ width: 100%;}
+    .books p{ width: max-content;}
 }
 /* @media screen and (max-width:800px) {
     .books p {
@@ -164,7 +164,7 @@ a:hover {
     animation-range: entry 0% cover 40%;
  }
 @media screen and (max-device-width:480px) {
-    .books p{ width: 100%;}
+    .books p{ width: max-content;}
 }
 /* @media screen and (max-width:480px) {
     .books p {
@@ -177,7 +177,7 @@ a:hover {
     animation-range: entry 0% cover 30%;
  }
 @media screen and (max-device-width:480px) and (orientation:landscape) {
-    .books p{ width: inherit;}
+    .books p{ width: max-content;}
 }
 /* @media screen and (max-width:480px) {
     .books p {
