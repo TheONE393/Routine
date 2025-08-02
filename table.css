@@ -74,37 +74,39 @@ a:hover {
     color: darkorange;
 }
 .books {
-    padding-left: 30px;
-    p {background-color: rgb(255, 255, 255);
-        width:max-content;
-        position: relative;
-        transition: 0.5s;
-        transform-origin: left;
-        transform: scaleX(1);
-        border: 2px solid black;
-        border-radius: 50px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    a:link {
-        color: blue;
-    }
-    a:active {
-        color: grey;
-    }
-    a:visited {
-        color: grey;
-    }
-    p:hover {
-        background-color: yellowgreen;
-        transform-origin: left;
-        transform: scaleX(1.1);
-        box-shadow: 10px 10px 10px grey;
-        transition-duration: 1s;
-        transform:ease
-    }
+    padding-left: 0;
+}
+.books p {
+    background-color: #fff;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scaleX(1);
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: block;
+    animation: fades linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+.books p:hover {
+    background-color: yellowgreen;
+    transform: scaleX(1.05);
+    box-shadow: 0 4px 16px rgba(128,128,128,0.2);
+    transition-duration: 0.5s;
+}
+.books a {
+    color: blue;
+    text-decoration: none;
+}
+.books a:active,
+.books a:visited {
+    color: grey;
 }
 @keyframes fades {
     from {
@@ -151,41 +153,18 @@ a:hover {
     border-radius: 10px;
 }
 @media screen and (max-width:800px) {
-    .books p{ width: max-content;}
-}
-/* @media screen and (max-width:800px) {
     .books p {
         width: 100%;
+        max-width: 100%;
+        border-radius: 20px;
+        padding: 8px 10px;
     }
-} */
-.books p{
-    animation: fades linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
- }
+}
 @media screen and (max-device-width:480px) {
-    .books p{ width: max-content;}
-}
-/* @media screen and (max-width:480px) {
     .books p {
         width: 100%;
+        max-width: 100%;
+        border-radius: 15px;
+        padding: 6px 8px;
     }
-} */
-.books p{
-    animation: fades linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
- }
-@media screen and (max-device-width:480px) and (orientation:landscape) {
-    .books p{ width: max-content;}
 }
-/* @media screen and (max-width:480px) {
-    .books p {
-        width: 100%;
-    }
-} */
-.books p{
-    animation: fades linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
- }
