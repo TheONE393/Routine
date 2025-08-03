@@ -38,7 +38,7 @@ th, td {
 .head {
     text-align: center;
 }
-.A:hover, .B:hover, .C:hover, .D:hover, .E:hover, .F:hover, .Lab:hover, .K:hover, .J:hover {
+.A:hover, .B:hover, .C:hover, .D:hover, .E:hover, .F:hover, .G:hover, .H:hover, .K:hover, .J:hover {
     transform: scale(1.1,1.1);
     transition-duration: 0.5s;
     animation-fill-mode: both;
@@ -49,7 +49,8 @@ th, td {
 .D { background-color: #98FB98; } /* Pale Green */
 .E { background-color: #FF6F61; } /* Coral Pink */
 .F { background-color: #C0C0C0; } /* Silver */
-.G { background-color: #BA55D3; } /* Medium Orchid */
+.G { background-color: #2fcb59; } /* Medium Orchid */
+.H { background-color: rgb(177, 35, 35); } /* Silver */
 .J { background-color: #40E0D0; } /* Turquoise */
 .K { background-color: #FFA07A; } /* Light Salmon */
 .L { background-color: #FFD1DC; } /* Pastel Pink */
