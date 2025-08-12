@@ -1,10 +1,10 @@
 subjects = {
-    'A': 'Plant Physiology (LH-01)',
+    'A': 'None',
     'B': 'Ecology (LH-02)',
     'C': 'Animal Physiology (LH-01)',
     'D': 'Inorganic Chemistry (LH-02)',
     'E': 'None',
-    'F': 'None',
+    'F': 'Plant Physiology (LH-02)',
     'G': 'Plant Lab',
     'H': 'Animal Lab',
     'J': 'None',
