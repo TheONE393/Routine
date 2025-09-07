@@ -80,6 +80,7 @@ a:hover {
 .books p {
     background-color: #fff;
     width: fit-content;
+    max-width: 100%;
     box-sizing: border-box;
     position: relative;
     transition: 0.5s;

@@ -141,10 +141,22 @@ html = f'''<!DOCTYPE html>
                 <a href="Books/Animal Physiology, 3rd Ed -- Richard W_ Hill, Gordon A_ Wyse, Margaret Anderson -- 3rd ed_, Sunderland, Mass, Massachusetts, 2012 -- Sinauer -- 9780878935598 -- a3af2ce7602f60658114fe5c854901f2 -- Anna’s Archive.pdf">Animal Physiology (3rd Ed) - Richard W Hill, Gordon A Wyse, Margaret Anderson</a>
             </p>
             <p>
-                <a href="Books\ISE Integrated Principles of Zoology -- Cleveland Hickman & Susan Keen & David Eisenhour & Allan-compressed.pdf">ISE Integrated Principles of Zoology - Cleveland Hickman & Susan Keen & David Eisenhour & Allan</a>
+                <a href="Books/ISE Integrated Principles of Zoology -- Cleveland Hickman & Susan Keen & David Eisenhour & Allan-compressed.pdf">ISE Integrated Principles of Zoology - Cleveland Hickman & Susan Keen & David Eisenhour & Allan</a>
             </p>
             <p>
                 <a href="Books/Principles Of Anatomy And Physiology, 14th Edition -- Gerard J_ Tortora, Bryan H_ Derrickson, Brendan Burkett, -- 14, 2013 -- Wiley & Sons, -- 9781118345009 -- 51b1fb3c2e47538e51cc7e964fde3f2c -- Anna.pdf">Principles Of Anatomy And Physiology (14th ed) - Gerard J Tortora, Bryan H Derrickson</a>
+            </p>
+            <p>
+                <a href="Books/Principles of Animal Physiology _ Pearson New International -- Christopher D_ Moyes, Patricia M_ Schulte, Chris Barnard -- Pearson custom library, 2rd -- 9781292026381 -- 9a378b5a7f3639a96d7c3adf1423b2ba -- Anna’s Arc.pdf">Principles Of Animal Physiology (2nd ed) - Christopher D Moyes, Patricia M Schulte, Chris Barnard</a>
+            </p>
+            <p>
+                <a href="Books/Jurd.pdf">Jurd's Instant Notes</a>
+            </p>
+            <p>
+                <a href="Books/Ian Kay.pdf">Ian Kay</a>
+            </p>
+            <p>
+                <a href="Books/Eckert Animal Physiology_ Mechanisms and Adaptations (Fourth Edition).pdf">Eckert Animal Physiology: Mechanisms and Adaptations (Fourth Edition)</a>
             </p>
             <h3>Inorganic Chemistry:</h3>
             <p>
