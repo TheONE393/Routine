@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The ONE's Routine</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="table.css">
+        <link rel="icon" type="image/x-icon" href="theone.ico">
+    </head>
+    <body>
+        <div class="form-panel">
+            <h2>Customise your routine</h2>
+            <form id="slot-form">
+                <label for="slot">Choose a slot</label>
+                <select id="slot" name="slot">
+                    <option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option><option value="E">E</option><option value="F">F</option>
+                </select>
+                <label for="course-name">Course name</label>
+                <input id="course-name" name="course-name" type="text" placeholder="Enter course name or type None to clear" required>
+                <label for="course-color">Choose a colour</label>
+                <input id="course-color" name="course-color" type="color" value="#40E0D0">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <br>
+        <div class="wallpaper">
+            <table class="design">
+                <tr class="rows">
+                    <th class="head diagonal"><p style="float: left;">Day ⬇️</p><p style="float: right;"> Time ➡️</p></th>
+                    <th class="head">8:30-9:30 am</th>
+                    <th class="head">9:30-10:30 am</th>
+                    <th class="head">10:30-11:30 am</th>
+                    <th class="head">11:30-12:30 pm</th>
+                    <th class="head">12:30-1:30 pm</th>
+                    <th class="head">1:30-2:30 pm</th>
+                    <th class="head">2:30-5:30 pm</th>
+                    <th class="head">5:30-6:30 pm</th>
+                    <th class="head">6:30-7:30 pm</th>
+                </tr>
+                <tr class="rows">
+    <th class="head">Monday</th>
+    <td class="head A" data-slot="A" data-default-text="Bio-techniques" style="background-color: #FFB347;">Bio-techniques</td>
+    <td class="head B" data-slot="B" data-default-text="Developmental Biology" style="background-color: #5F9EA0;">Developmental Biology</td>
+    <td class="head C" data-slot="C" data-default-text="Adv. Mol. Bio." style="background-color: #7FFFD4;">Adv. Mol. Bio.</td>
+    <td class="head D" data-slot="D" data-default-text="-" style="background-color: #98FB98;">-</td>
+    <th class="head L" rowspan="5">LUNCH</th>
+    <td class="head E" data-slot="E" data-default-text="Biophysics" style="background-color: #FF6F61;">Biophysics</td>
+    <td class="head G" data-slot="G" data-default-text="-" style="background-color: #2fcb59;">-</td>
+    <td class="head J" data-slot="J" data-default-text="-" style="background-color: #40E0D0;">-</td>
+    <td class="head K" data-slot="K" data-default-text="-" style="background-color: #FFA07A;">-</td>
+</tr><tr class="rows">
+    <th class="head">Tuesday</th>
+    <td class="head F" data-slot="F" data-default-text="-" style="background-color: #C0C0C0;">-</td>
+    <td class="head A" data-slot="A" data-default-text="Bio-techniques" style="background-color: #FFB347;">Bio-techniques</td>
+    <td class="head B" data-slot="B" data-default-text="Developmental Biology" style="background-color: #5F9EA0;">Developmental Biology</td>
+    <td class="head C" data-slot="C" data-default-text="Adv. Mol. Bio." style="background-color: #7FFFD4;">Adv. Mol. Bio.</td>
+    <td class="head D" data-slot="D" data-default-text="-" style="background-color: #98FB98;">-</td>
+    <td class="head G" data-slot="G" data-default-text="-" style="background-color: #2fcb59;">-</td>
+    <td class="head K" data-slot="K" data-default-text="-" style="background-color: #FFA07A;">-</td>
+    <td class="head J" data-slot="J" data-default-text="-" style="background-color: #40E0D0;">-</td>
+</tr><tr class="rows">
+    <th class="head">Wednesday</th>
+    <td class="head E" data-slot="E" data-default-text="Biophysics" style="background-color: #FF6F61;">Biophysics</td>
+    <td class="head F" data-slot="F" data-default-text="-" style="background-color: #C0C0C0;">-</td>
+    <td class="head A" data-slot="A" data-default-text="Bio-techniques" style="background-color: #FFB347;">Bio-techniques</td>
+    <td class="head B" data-slot="B" data-default-text="Developmental Biology" style="background-color: #5F9EA0;">Developmental Biology</td>
+    <td class="head C" data-slot="C" data-default-text="Adv. Mol. Bio." style="background-color: #7FFFD4;">Adv. Mol. Bio.</td>
+    <td class="head H" data-slot="H" data-default-text="-" style="background-color: #B12323;">-</td>
+    <td class="head J" data-slot="J" data-default-text="-" style="background-color: #40E0D0;">-</td>
+    <td class="head K" data-slot="K" data-default-text="-" style="background-color: #FFA07A;">-</td>
+</tr><tr class="rows">
+    <th class="head">Thursday</th>
+    <td class="head D" data-slot="D" data-default-text="-" style="background-color: #98FB98;">-</td>
+    <td class="head E" data-slot="E" data-default-text="Biophysics" style="background-color: #FF6F61;">Biophysics</td>
+    <td class="head F" data-slot="F" data-default-text="-" style="background-color: #C0C0C0;">-</td>
+    <td class="head A" data-slot="A" data-default-text="Bio-techniques" style="background-color: #FFB347;">Bio-techniques</td>
+    <td class="head B" data-slot="B" data-default-text="Developmental Biology" style="background-color: #5F9EA0;">Developmental Biology</td>
+    <td class="head H" data-slot="H" data-default-text="-" style="background-color: #B12323;">-</td>
+    <td class="head K" data-slot="K" data-default-text="-" style="background-color: #FFA07A;">-</td>
+    <td class="head J" data-slot="J" data-default-text="-" style="background-color: #40E0D0;">-</td>
+</tr><tr class="rows">
+    <th class="head">Friday</th>
+    <td class="head C" data-slot="C" data-default-text="Adv. Mol. Bio." style="background-color: #7FFFD4;">Adv. Mol. Bio.</td>
+    <td class="head D" data-slot="D" data-default-text="-" style="background-color: #98FB98;">-</td>
+    <td class="head E" data-slot="E" data-default-text="Biophysics" style="background-color: #FF6F61;">Biophysics</td>
+    <td class="head F" data-slot="F" data-default-text="-" style="background-color: #C0C0C0;">-</td>
+    <td class="head X" data-slot="X" data-default-text="-" style="background-color: #E0E0E0;">-</td>
+    <td class="head X" data-slot="X" data-default-text="-" style="background-color: #E0E0E0;">-</td>
+    <td class="head X" data-slot="X" data-default-text="-" style="background-color: #E0E0E0;">-</td>
+    <td class="head X" data-slot="X" data-default-text="-" style="background-color: #E0E0E0;">-</td>
+</tr>
+            </table>
+        </div>
+        <script>
+            const form = document.getElementById('slot-form');
+            const slotSelect = document.getElementById('slot');
+            const courseNameInput = document.getElementById('course-name');
+            const colorInput = document.getElementById('course-color');
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();
+                const slotCode = slotSelect.value;
+                const courseNameInputValue = courseNameInput.value.trim();
+                const courseName = courseNameInputValue && courseNameInputValue.toLowerCase() !== 'none'
+                    ? courseNameInputValue
+                    : '-';
+                const color = colorInput.value;
+                const cells = document.querySelectorAll(`td[data-slot="${slotCode}"]`);
+
+                cells.forEach((cell) => {
+                    cell.textContent = courseName;
+                    cell.style.backgroundColor = color;
+                    cell.style.color = '#111';
+                });
+            });
+        </script>
+    </body>
+</html>
